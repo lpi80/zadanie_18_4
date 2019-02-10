@@ -23,7 +23,7 @@ const movies = [
 
 const MovieTitle = React.createClass({
     propTypes: {
-        title: React.PropTypes.object.isRequired,
+        title: React.PropTypes.string.isRequired,
     },
     render: function () {
         return (
@@ -34,7 +34,7 @@ const MovieTitle = React.createClass({
 
 const MovieDesc = React.createClass({
     propTypes: {
-        desc: React.PropTypes.object.isRequired,
+        desc: React.PropTypes.string.isRequired,
     },
     render: function () {
         return (
@@ -45,7 +45,7 @@ const MovieDesc = React.createClass({
 
 const MovieImage = React.createClass({
     propTypes: {
-        image: React.PropTypes.object.isRequired,
+        image: React.PropTypes.string.isRequired,
     },
     render: function () {
         return (
